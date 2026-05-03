@@ -3,7 +3,7 @@
 ---
 
 ## Dataset
-ETT-small: https://www.kaggle.com/datasets/alaaelmor/ettsmall
+ETT-small: https://github.com/zhouhaoyi/ETDataset/tree/main/ETT-small
 
 ---
 
@@ -47,6 +47,10 @@ source transformer/bin/activate
 ```
 
 ### 4. Install library
+```bash
+pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/cu128
+```
+
 ```bash
 pip install -r requirements.txt
 ```

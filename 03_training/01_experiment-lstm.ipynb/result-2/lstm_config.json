@@ -1,0 +1,13 @@
+{
+    "model": "LSTM",
+    "seq_len": 336,
+    "pred_len": 48,
+    "input_dim": 7,
+    "hidden_dim": 64,
+    "num_layers": 2,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "epochs": 20,
+    "num_parameters": 55088,
+    "training_time_seconds": 23.083566904067993
+}
